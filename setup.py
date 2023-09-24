@@ -23,7 +23,7 @@ import numpy as np
 def collecting_verification_images():
         ver_images = []
         # Path for some anchor images will be used to verify the input images
-        ver_path = "my data/verification"   
+        ver_path = "verification images"   
         for img_name in os.listdir(ver_path):
             path = ver_path + "/" + img_name
             image = cv2.imread(path)
@@ -66,7 +66,7 @@ class CamApp(App):
         layout.add_widget(self.verification_label)
 
         # Load tensorflow/keras model
-        self.model = tf.keras.models.load_model('my data/siamese_model.h5', 
+        self.model = tf.keras.models.load_model('siamese_model.h5', 
                                    custom_objects={'L1Dist':L1Dist, 'BinaryCrossentropy':tf.losses.BinaryCrossentropy})
 
         # Setup video capture device
@@ -114,6 +114,7 @@ class CamApp(App):
         # Getting the verification images
 
         result = []
+        i = 0
         for ver in ver_images:
             y_hat = self.model.predict([ver,input_image])
             if(y_hat[0,0] >= 0.9):
@@ -122,8 +123,8 @@ class CamApp(App):
                 y_hat[0,0] = 0
             result.append(y_hat[0,0])
         
-        m = ver_images.shape[0]
         result = np.array(result)
+        m = result.shape[0]
         accuracy = 100*(np.sum(result == 1)/m)
         
         self.verification_label.text = 'Verified, Welcome Amro!' if accuracy > 60 else 'Unverified'
