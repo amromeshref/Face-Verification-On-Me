@@ -26,7 +26,7 @@
 ## How to Install
 1. Create a directory in your device.
 2. Download the siamese model architecture.
-   - File name: siamese model.zip
+   - File name: siamese_model.rar
    - Download Link: https://www.kaggle.com/datasets/amromeshref/face-verification-on-me
    - Make sure to uncompress the file.
 3. Download these files from this repository:
