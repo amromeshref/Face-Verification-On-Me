@@ -13,8 +13,6 @@
 ### table of contents
 - [Data Collection](#Data-Collection)
 - [How to Install](#how-to-install)
-- [Usage](#usage)
-
 
 
 
