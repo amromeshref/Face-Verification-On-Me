@@ -8,6 +8,13 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+data/
+data.zip
+siamese_model.h5
+siamese model.zip
+my data/
+paper link.txt
+paper.pdf
 build/
 develop-eggs/
 dist/
