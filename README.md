@@ -6,15 +6,16 @@
 
 - I created a face verification app on me.
 - The app takes an input image from a webcam then it verifies this image.
-  
+
+<div align="center">
+<img src= "app.png" style="width:600px;height:600;">
+</div>
+
 ### table of contents
 - [Data Collection](#Data-Collection)
 - [How to Install](#how-to-install)
 - [Usage](#usage)
 
-  <div align="center">
-<img src= "app.png" style="width:600px;height:600;">
-</div>
 
 
 
