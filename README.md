@@ -1,6 +1,5 @@
 # Face_Verification_On_Me
 
-#### Video Demo: https://youtu.be/98Y7Qg1k6lk 
 
 #### Description:
 
