@@ -10,7 +10,7 @@
 <img src= "app.png" style="width:600px;height:600;">
 </div>
 
-### table of contents
+### Table of Contents
 - [Data Collection](#Data-Collection)
 - [How to Install](#how-to-install)
 
