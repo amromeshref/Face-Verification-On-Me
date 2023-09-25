@@ -19,6 +19,7 @@
 ## Data Collection
 
 - I used the siamese neural network to train my model.
+    - Paper Link: https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf
 - To train a Siamese neural network, you need a dataset of pairs of inputs, where each pair is labeled as either similar or dissimilar.
 - I collected the negative images (Disimilar Images) from  http://vis-www.cs.umass.edu/lfw/
 - I collected anchor and positive images (Similar Images) from my webcam.
