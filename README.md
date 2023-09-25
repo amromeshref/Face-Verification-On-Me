@@ -31,7 +31,7 @@
    - Download Link: https://www.kaggle.com/datasets/amromeshref/face-verification-on-me
    - Make sure to uncompress the file.
 3. Download these files from this repository:
-   - setup.py
+   - app.py
    - layers.py
    - requirements.txt
    - verification images
@@ -41,5 +41,5 @@
     ```
 5.  Type the following command to run the app:
     ```bash
-    python3 setup.py
+    python3 app.py
     ```  
